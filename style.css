@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Oxygen', sans-serif
+}
+
+body {
+    background-color: rgb(143, 143, 238);
+}
+
+.titulo-principal {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+
+.titulo-secundario {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.primeira-section-texto {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section-background {
+    background: white;
+    border-radius: 15px;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 30px;
+    box-shadow: 15px 9px 9px rgba(0, 0, 0, 0.295);
+      
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.res-texto {
+    text-align: center;
+    padding-top: 5px;
+    
+}
+
+.input-estilo {
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: none;
+    padding-left: 5px
+}
+
+::placeholder {
+    text-align: center;
+}
+
+.botao-estilo {
+    border-radius: 30px;
+    width: 90px;
+    height: 30px;
+    border-style: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.botao-estilo-sec {
+    border-radius: 30px;
+    width: 90px;
+    height: 30px;
+    border-style: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.botao-estilo:hover {
+    background-color: rgb(146, 145, 145);
+}
+
+.botao-estilo-sec:hover {
+    background-color: rgb(146, 145, 145);
+}

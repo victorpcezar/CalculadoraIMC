@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Oxygen', sans-serif
+    font-family: 'Oxygen', sans-serif;
+    
 }
 
 body {
@@ -87,4 +88,17 @@ body {
 
 .botao-estilo-sec:hover {
     background-color: rgb(146, 145, 145);
+}
+
+@media(max-width: 514px) {
+    .conteudo-principal {
+        width: 50%;
+        margin: auto;
+    }
+    .botao-estilo {
+        margin-top: 15px;
+    }
+    .botao-estilo-sec {
+        margin-top: 15px;
+    }
 }

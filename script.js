@@ -18,7 +18,7 @@ function calcular() {
             resultado.innerHTML = `IMC Igual a: ${imc} são consideradas como obesidade grau I`
         } else if (imc >= 30 && imc <= 39.9) {
             resultado.innerHTML = `IMC Igual a: ${imc} são consideradas como obesidade grau II`
-        } else if (imc > 40) {
+        } else {
             resultado.innerHTML = `IMC Igual a: ${imc} são consideradas como obesidade grau III ou mórbida`
         }
     }

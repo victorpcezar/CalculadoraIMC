@@ -5,7 +5,6 @@ function calcular() {
     let imc = parseFloat(peso.value / (altura.value * altura.value)).toFixed(1)
     if (altura.value.length == 0 || peso.value.length == 0 ) {
         alert('[ERRO] Preencha os dados!')
-        resultado.innerHTML = `Sem dados! impossivel calcular IMC`
   
     } else {
         if (imc < 18.5) {
